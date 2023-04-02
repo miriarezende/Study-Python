@@ -1,0 +1,6 @@
+a = input('digite algo')
+print(type(a))
+print('é alfabetico',a.isalpha())
+print('numerico', a.isnumeric())
+print('alfebico/numerico', a.isalnum())
+print('espaço', a.isspace())

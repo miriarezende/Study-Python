@@ -1,0 +1,2 @@
+n1= input('digite qualquer frase: ').lower().strip()
+print('letra A aprece {}x\naprece primeira vez no index {} \naparece pela ultima vez na posição {}'.format(n1.count('a'), n1.find('a')+1, n1.rfind('a')+1))
